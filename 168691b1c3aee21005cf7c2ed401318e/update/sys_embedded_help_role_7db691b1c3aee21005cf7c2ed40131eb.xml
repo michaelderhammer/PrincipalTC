@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_393628_finance.finance_agent" name="x_393628_finance.finance_agent">b5b691b1c3aee21005cf7c2ed40131ea</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 20:15:12</sys_created_on>
+        <sys_id>7db691b1c3aee21005cf7c2ed40131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b5b691b1c3aee21005cf7c2ed40131ea</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_7db691b1c3aee21005cf7c2ed40131eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 20:15:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
