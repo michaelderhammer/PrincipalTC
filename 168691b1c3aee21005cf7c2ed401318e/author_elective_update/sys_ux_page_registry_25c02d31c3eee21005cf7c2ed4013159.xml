@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel/>
+        <admin_panel_table/>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>finance</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 20:59:50</sys_created_on>
+        <sys_id>25c02d31c3eee21005cf7c2ed4013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Case Workspace</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_ux_page_registry_25c02d31c3eee21005cf7c2ed4013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 20:59:50</sys_updated_on>
+        <title>Finance Case Workspace</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</application>
+        <file_path/>
+        <instance_id>89389a67dbda31d0ae4c9027c5961953</instance_id>
+        <instance_name>dev210903</instance_name>
+        <name>sys_ux_page_registry_25c02d31c3eee21005cf7c2ed4013159</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel/><admin_panel_table/><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>finance</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-05 20:59:50</sys_created_on><sys_id>25c02d31c3eee21005cf7c2ed4013159</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finance Case Workspace</sys_name><sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package><sys_policy/><sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope><sys_update_name>sys_ux_page_registry_25c02d31c3eee21005cf7c2ed4013159</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-05 20:59:50</sys_updated_on><title>Finance Case Workspace</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>262269245</payload_hash>
+        <record_name>Finance Case Workspace</record_name>
+        <reverted_from/>
+        <source>baca5975c3aee21005cf7c2ed40131a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 20:59:50</sys_created_on>
+        <sys_id>23e0ed31c3eee21005cf7c2ed40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197dc63635c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 20:59:50</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>27e0ed31d5eee210ad5476c55a6c1dbb</update_guid>
+        <update_guid_history>27e0ed31d5eee210ad5476c55a6c1dbb:262269245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 21:06:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>014f84c33c414bce8049f546b1a480a4</sys_id>
+        <sys_metadata>25c02d31c3eee21005cf7c2ed4013159</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Case Workspace</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_scope_delete display_value="">828ad20d32ce4b39a11c09ff5b2bbb11</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_25c02d31c3eee21005cf7c2ed4013159</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_25c02d31c3eee21005cf7c2ed4013159">23e0ed31c3eee21005cf7c2ed40131bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 21:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

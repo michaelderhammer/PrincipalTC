@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>description</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-05 20:54:15</sys_created_on>
+        <sys_data_policy display_value="Lock down fields on closed incomplete">bcfe5d7dc3aee21005cf7c2ed40131db</sys_data_policy>
+        <sys_id>ccaf1dbdc3aee21005cf7c2ed4013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_data_policy_rule_ccaf1dbdc3aee21005cf7c2ed4013190</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-05 20:54:15</sys_updated_on>
+        <table>x_393628_finance_finance_cases</table>
+    </sys_data_policy_rule>
+</record_update>
