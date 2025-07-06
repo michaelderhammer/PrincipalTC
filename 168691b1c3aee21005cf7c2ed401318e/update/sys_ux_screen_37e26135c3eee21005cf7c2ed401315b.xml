@@ -41,7 +41,7 @@
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
-        <screen_condition/>
+        <screen_condition>table=x_393628_finance_legacy_finance_case_import</screen_condition>
         <screen_type display_value="Finance Cases">efe26135c3eee21005cf7c2ed401313d</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -49,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>37e26135c3eee21005cf7c2ed401315b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name>sys_ux_screen_37e26135c3eee21005cf7c2ed401315b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-05 21:08:35</sys_updated_on>
+        <sys_updated_on>2025-07-06 19:45:43</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=37e26135c3eee21005cf7c2ed401315b"/>
 </record_update>

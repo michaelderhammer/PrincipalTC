@@ -13,7 +13,7 @@
         <mobile_title>Closed</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_393628_finance_finance_cases</name>
-        <order>5</order>
+        <order>50</order>
         <override_menu_roles>false</override_menu_roles>
         <query>active=false^EQ</query>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08879df1c3aee21005cf7c2ed401310d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name>sys_app_module_08879df1c3aee21005cf7c2ed401310d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-05 20:18:37</sys_updated_on>
+        <sys_updated_on>2025-07-06 19:27:25</sys_updated_on>
         <timeline_page/>
         <title>Closed</title>
         <uncancelable>false</uncancelable>

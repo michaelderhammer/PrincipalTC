@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Help from Finance">14260242c3a6661005cf7c2ed4013105</sc_cat_item>
+        <sc_catalog display_value="Finance Catalog">6d7482cec366661005cf7c2ed4013160</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 18:20:50</sys_created_on>
+        <sys_id>dc260242c3a6661005cf7c2ed401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Catalog.Request Help from Finance</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_dc260242c3a6661005cf7c2ed401310c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 18:20:50</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

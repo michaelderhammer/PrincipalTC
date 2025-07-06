@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "sysId": null,
+    "tabSysId": null,
+    "filter": null,
+    "edit": null,
+    "element": null
+}</macroponent_config>
+        <screen display_value="Default">4bd91e4ec3e6661005cf7c2ed40131c0</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 19:47:02</sys_created_on>
+        <sys_id>07d91e4ec3e6661005cf7c2ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_07d91e4ec3e6661005cf7c2ed40131c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 19:47:02</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

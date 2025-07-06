@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Legacy Finance Case Transform">7074f10ac326661005cf7c2ed40131e9</map>
+        <reference_value_field/>
+        <source_field>u_id</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_393628_finance_legacy_finance_case_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 17:30:45</sys_created_on>
+        <sys_id>4caafd02c366661005cf7c2ed4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_id</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_transform_entry_4caafd02c366661005cf7c2ed4013167</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 17:30:45</sys_updated_on>
+        <target_field>correlation_id</target_field>
+        <target_table>x_393628_finance_finance_cases</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

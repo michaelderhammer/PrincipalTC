@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_finance_catalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 18:14:07</sys_created_on>
+        <sys_id>ce9442cec366661005cf7c2ed4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Catalog View</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_ui_view_ce9442cec366661005cf7c2ed4013154</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 18:14:07</sys_updated_on>
+        <title>Finance Catalog View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Parent Record" section_id="de28b54ec326661005cf7c2ed4013151" sys_domain="global" table="x_393628_finance_finance_cases" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_393628_finance_finance_cases.x_393628_finance_finance_cases.parent</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-06 17:19:49</sys_created_on>
+            <sys_id>2228b54ec326661005cf7c2ed4013158</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Parent Record" display_value="Parent Record" name="x_393628_finance_finance_cases" sys_domain="global" view="Default view">de28b54ec326661005cf7c2ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-06 17:19:49</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Parent Record</caption>
+            <header>false</header>
+            <name>x_393628_finance_finance_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-06 17:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de28b54ec326661005cf7c2ed4013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393628_finance_finance_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+            <sys_update_name>sys_ui_section_de28b54ec326661005cf7c2ed4013151</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-06 17:19:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</application>
+        <file_path/>
+        <instance_id>89389a67dbda31d0ae4c9027c5961953</instance_id>
+        <instance_name>dev210903</instance_name>
+        <name>sys_ui_section_de28b54ec326661005cf7c2ed4013151</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Parent Record" section_id="de28b54ec326661005cf7c2ed4013151" sys_domain="global" table="x_393628_finance_finance_cases" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>12M.x_393628_finance_finance_cases.x_393628_finance_finance_cases.parent</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-06 17:19:49</sys_created_on><sys_id>2228b54ec326661005cf7c2ed4013158</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Parent Record" display_value="Parent Record" name="x_393628_finance_finance_cases" sys_domain="global" view="Default view">de28b54ec326661005cf7c2ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-06 17:19:49</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Parent Record</caption><header>false</header><name>x_393628_finance_finance_cases</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-06 17:19:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de28b54ec326661005cf7c2ed4013151</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_393628_finance_finance_cases</sys_name><sys_overrides/><sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package><sys_policy/><sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope><sys_update_name>sys_ui_section_de28b54ec326661005cf7c2ed4013151</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-06 17:19:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-379322143</payload_hash>
+        <record_name>Finance Cases</record_name>
+        <reverted_from/>
+        <source>f3f13d02c326661005cf7c2ed4013161</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 17:19:49</sys_created_on>
+        <sys_id>2228b54ec326661005cf7c2ed401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e0c051970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 17:19:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a628b54eda26661018e810c18cb30059</update_guid>
+        <update_guid_history>a628b54eda26661018e810c18cb30059:-379322143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 17:20:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02965a88bb714a9e80296e0b7edcf089</sys_id>
+        <sys_metadata>de28b54ec326661005cf7c2ed4013151</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parent Record</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_parent display_value="Finance Cases">d367d9f1c3aee21005cf7c2ed40131a9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_scope_delete display_value="">828ad20d32ce4b39a11c09ff5b2bbb11</sys_scope_delete>
+        <sys_update_name>sys_ui_section_de28b54ec326661005cf7c2ed4013151</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_de28b54ec326661005cf7c2ed4013151">2228b54ec326661005cf7c2ed401315a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 17:20:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3298000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4285000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -22,7 +22,7 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>f0dd654ec3e2661005cf7c2ed401311c</remote_trigger_id>
+        <remote_trigger_id>a9427106c326661005cf7c2ed40131bf</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>78736d8ec3a2661005cf7c2ed4013145</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Finance Case Child Closure: Incomplete Parent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name>sys_hub_flow_78736d8ec3a2661005cf7c2ed4013145</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:45:27</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -53,7 +53,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=78736d8ec3a2661005cf7c2ed4013145"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_393628_finance_finance_cases">state=4<item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <condition table="x_393628_finance_finance_cases">stateCHANGESTO4<item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -67,15 +67,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-06 16:34:39</sys_created_on>
+        <sys_created_on>2025-07-06 16:54:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f0dd654ec3e2661005cf7c2ed401311c</sys_id>
+        <sys_id>a9427106c326661005cf7c2ed40131bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:34:39</sys_updated_on>
+        <sys_updated_on>2025-07-06 16:54:05</sys_updated_on>
         <table>x_393628_finance_finance_cases</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -85,14 +85,14 @@
         <identifier>78736d8ec3a2661005cf7c2ed4013145</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-06 16:44:20</sys_created_on>
-        <sys_id>fa007d02c326661005cf7c2ed401317d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2025-07-06 17:00:46</sys_created_on>
+        <sys_id>2fc331c6c326661005cf7c2ed4013104</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:45:36</sys_updated_on>
-        <trigger display_value="">f0dd654ec3e2661005cf7c2ed401311c</trigger>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
+        <trigger display_value="">a9427106c326661005cf7c2ed40131bf</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=78736d8ec3a2661005cf7c2ed4013145^sys_idNOT INfa007d02c326661005cf7c2ed401317d"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=78736d8ec3a2661005cf7c2ed4013145^sys_idNOT IN2fc331c6c326661005cf7c2ed4013104"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=78736d8ec3a2661005cf7c2ed4013145"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=78736d8ec3a2661005cf7c2ed4013145^sys_idNOT IN70736d8ec3a2661005cf7c2ed4013149"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -374,12 +374,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>e4c4e182c3e2661005cf7c2ed4013145</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:37:16</sys_updated_on>
+        <sys_updated_on>2025-07-06 16:53:57</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9Va227bOBD9FUFPu4B3oYuv6VPWSbYB2gZw3O5DUQgUSdnCypQrUkrcov++Q4mSZV0cX5Su+5LAJMU5MzxzZmj583c9QC4N9Ct9jtyA6j3dZ4JGDAXzzZrCsJDDDkMrObdCjCARRhv9SkQx7eleFK7mdLUOkIDFHgo4DIYRoZF+Zfb0BAUxfdzwewI7wfPpNmpPXU3D52fHnthDa+x4PkMM0+I/RpxyWEh8DiY2n9T6u2xam6ppvPQDElGmX33+0tPXKAIzQkL4XpnyJQ6TEGRa1MC2aVuWYVjjvukObde0iI0oGsOG1ZhUcIuG0Gydps+CMkJJEY9a1CKKyAMLNqUVz9z/BnuODTnrUUCMaRaz4qOjopAN42XoY/qwFn7IspEMXTYZBvGKfchQy/hRD8WByOMHIzGH/ehaAmWiwOE9LsOnWW4Qwpz6pCaDEKOg+ISEiHw3FnAAEGbPDyDgThYRHsZRin52O32Y3Tj/XM+nb29nzuz2cT67n85vb/QfqV/O11jumCFUWJzMnR/Fod/5NJDHxuKVC2h6OseRvxbXWPhJzrkfvS2PpyEjfhqVGpdxPsV3uZx7v4/MhtFKZ1yymFOaC9hk+vb6w9/g9EP/aJK67gQRilpIOhyVSFp2uAGRaPC97NQ+uqqRdr72DeN/YqzSn1MJuwoJDW622+kwuVgAhX22joWMUR4XJ1zTSMYDntM/Xb9Th/pG/b+bPbx/Uxw0PPeEmOCOCB1EiFOKujQBvrzE/Cwmdfq/TPwoZrCFU5xnnf7pARQn8c7n4PhnSN48yumWMO+9U1vOYqaFcPDwR8NxBEEWWi6C3v0KLdTZeI80oFiUSOR95OVP733OfbYooS6MplGp2SzMARm13KXMNj/T+Jcuc78e9KQSzErtOloJhpiYfXc0NEZSB0zDdj3TGBkD5BHbMCZ2SQnqYFpRigolOlSE4/SApxQMDiBcNbAKslHOgYPIk+wyL3ddEkPJzrQbaGZH0CwJrSKf9lH6WZAxG77Z5eQ+1zpuFBBJZOtGDpVDueAA3fOC8Amk+wTNcxH+dxGFMSNVEZJ7aj7Ttiu031T8fu9Q/7wwovsB7K64JOXbhj0nLmKbDjSvTzEZDftDA6TOBpVzB5OJi5HleaPhiBqkonlbGI3YLljrXuBY0kTSNt1rpEvSxLIjFO8MgDX1Oxrg+bqn6Nioetncr6FvT0vKHIAaOYFUsJrMLQKf0Hyu2xyvmU62WX1untvemAwGoxEewQ0H8tzrUxeZfWuAJqOhTYeVPK9B2QdTNETmFe89fMNT8y0a8DGbuqxb+2uSlVMhZOk5viIz6FTTZ1BmpFQV5WFoqZSEkfYhZH/cb9dpjxSKXXrl7ao0H4JCHqz2ujDcUCxrvQGY/gvGd0zLnrIlKhd3aaqQJNn19ewGYmxPBsSzm4VlZDUJyxZMO8wLbSUOzIukNcOaeopDaZ40ZktrE3ACcSvkKHcHe9qXroJidh4U6/WCYp/dMuUZ2HpTPAXsL1S40h7inOolbVIn9MqSfRNqMKGBEc33NPVdI1z83Y0mlhRCGkBvDAY1af1crS7XjjqUgsE/F0jWbddqGAxrqm26vPJUoUK3d1zsTVwysVt630F779tepyrTF1qsjs6FpCm19las4/at7tlYs0pE3eXBgdWoU6+bS9J5XjcWpZe8Pr/c7LuhN6C4/EIiQc+zYzihfIQMV+4auMuXLTHzv8bUwUvEFtmLlNzQHcSZIrzUsiVatqTLAhA8oQ3Xq5UISCvzQn3tDAOQISzTr64s04RGm5qvclCL10QWh59efPb8NkK9h+QigicXm1Lm1Q7vyIJjTgaWTcbYNid2/XcPZqng7HK4HVlrhXnhZxBtFWbpp+9iS+bVOQl/RVM9K16oaisk8JLyngaHmb68SOXOj7hIV/+pd3i7wuWXPCpFmwpQaxK1HmGroO/Ji6SaUU0K3sDxpJIPZQ3fe4/a477ZiftWF+7bp7nfP7uEqYg01zAVvW7r1gk/n9GbC9eX/wAecRBQAiYAAA==</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -400,20 +400,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>20c4e182c3e2661005cf7c2ed4013149</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:38:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-06 19:22:53</sys_updated_on>
         <ui_id>5ea97f25-1c35-4809-b215-a08568bb95a0</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VX3W/aMBD/V1CeI5QQSlnfplaV9tBWaru+dJXl2A5YM05mO3wU8b/vHDuBAm2Bsa19Qr4P3+/ufncxj/OA0+As6GfdKMLxSf80ipIkinq9hOA4TZMeSaO0mwZhIPGIgaXBqWBwHGNR2vMUJV+SXqePMi6xJKz5JVgzDYaU60Lg2YO3v3Tq1rlXkyEXVDEZnD0+hUGBFYQxTAVn8zWVmRUMCZwyAbfcWxStawsp3DmDF86bGdkA9RFJd3WuqMUShQGbGiYpg1AZFpqFwQhLik2uZo1EMUxvpFgKhlwauDGwxlPNn+H6fmTtMgZpEeZ0zRH5UjkxGeacsJvC8Fw6iQPqlLkoR/LaJWCLzDJcClMXGSSlhvtYYTFbEB5RdjfMJ7d1QOhFlZ5Xipxg0ZywMYqnpYEuQS+YYCO4CI1wUXA5QIXKx7xyBiyj9kDAoZ2JfAJBNR/INiYWeBtKhNuXIL+oxA9YcZvFFVwDzgCIC+g2ckXXeamqqowREaWuFApL7e4KFlWt0K/SonRZ+/yQKxEYaKJ4Yb6Cw5j5VBbhTiQ/iZaUILmk3MbUK0wHbkKoHyU40/n8ewGpMYriNimVVbT1TCNOF4tNzu/hedg4nK/i3TXXrc7bCuAH44XMD0Z8tMEAuP9pNIwqP95kvMd1l/A7hCenb5LgZNlvnSuDXOVWGL/J5IMZesmZoC8W9g7gaucbS7ZWOnsNrydoZmOsbe7Op9/cH5KeAIgiV28uBZfVhxOAHoe30dvL68saD6r2L1lbybAmm+zFLZO3ng/fslVfa/7uALJ2vANErXuHcgvwer/W13vqJkejbtLZj7pAnMd5g76p2pYC1+8j27ra/tna43V7YNeKQ7x4aqh/fljMeN+YHRtzbTaTvYZzlVlOc/EKwY78+npl2MK/Od1DcPXxkBtWNOF0wMwyem1FczPB4uc2vWdXM0NVen/8kuu+OXu9eDlnMANIMQ2tWn3KxfDY2FwPcejEh22Hb9KwQVW8XSHWnld42rptMG4F7lcEb2J4TneP+P76F5+3uvBbp6eu/6f463IohZ9+A7Vd3idzDwAA</values>
+        <values>H4sIAAAAAAAA/+VX22rjMBD9leBnE+w4TdO+LSmFhV6g7fZltwhZkhOxiu2V5Fwa8u87smTHJG43hhRa9iloZqQ5M3OOrPzceJx6l944GQYBDs/G50EQRUEwGkUEh3EcjUgcxMPY870UzxlEahwLBssFFoVZr1B0EY0GY5TwFKeE1b8EK6YgkHKVC7x+dvHX1t2bODeZcUElS73Lny++l2MJaTST3uVmz3UsToFjJiD0yQHdw63Xeb1Epc/abprbenfWkUlqoAS+x1aapZQBhgQLxXxvjlOKdSbXtUUyTO9TsTPMeKrhRM8ErxR/hbzjwMQlDKoizPrqJXKdsubkCmv8qGVBdCFdKJllnEDXyn5QluBC6EnTZgPuc82z1G6xZdvdmSjm6Z1th1cfUA0GLIUCECw3hRrkrozkcZYtHyqUML+yJ84pMoJFvcJaSx4X2uDZeEywORyE5jjPeTpFucwWvNwMWOb9qYBFPxHZEpIqPk37mBjgfegr7l+D/ao0P2PJTRW3cAxsBkBcAEOQHaHKClm2coGIKFTpkDhV9ixv63tqrSYCK7WrHFqO/hQGt+2DqxjZppktRPJcf4MjFswVt/WPkspZsKMcyVLKDQrV0AswHFL9KmAz3Wx+5FAsoyjsk0IaRx/QIk6320PldNh5SlGVFVWimjRLaivTyevAdtN2gJNXeDJ5QR1fSWCQ/PPpq7tibAv+IRty/i7JznZ8UpnUyPayoZtDPXTm+REQKp7fG2b24vVbqBzNE84EbfuKXBvH3ldk8H9+RT4lyQEQRXZ6PBU8LZ8EAPSj2B+8f8Ve7PGspNeO+6UNK3KoAdzTWe+1sxKOgFMp4RFy954snhaI1X1fUmb/rq+MTgDRyQQQDU4jgE1dZt3Ilp5Xr0AzzSr+1cTj/XigYGNDuG0TWKecYdecg+2hgKNOCm6SzXqu3uDciZ+LbyjS/8grYAZbXT5k9YuWnE6Z3mWvomiml1j8bvM7xqFqUGV5H/D0HL4r21G4kygoBUmmYHjNt2cIz6PDOyT0rbnbFXIElqodt3jVe6jBtCJ01wgonU3L2TTvke+11ZF8eMIH46f9klbDatVgNbMv8Y/tdEJ4+QvgKDjMsBAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=20c4e182c3e2661005cf7c2ed4013149"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment>Update the state of the record to match the parent and work note the closure reason</comment>
+        <comment>Update the state of the record to closed incomplete and work note the closure reason</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Finance Case Child Closure: Incomplete Parent">78736d8ec3a2661005cf7c2ed4013145</flow>
@@ -424,13 +424,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>6cc4e182c3e2661005cf7c2ed401314b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:38:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-06 19:22:53</sys_updated_on>
         <ui_id>7715e15a-bae6-40f1-9fb5-c0070f045ed2</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXU/bMBT9K1Ge2ygfpbR9m1ZV2sNAYhsvjEWOfVOsOXZmOy1dlf++68QpBTaGEBKatOah8v08597j5GofchYuwgmwOJknU5olWZbGcTqbJMU0K5KUZQQgCUehJBVgpAaqNMPzhojGGfb7GPBJUzbO4mQ2niS0GM+ndDLOstOSnLBTINk84haqtsU8xk0tyO7Sp6OF3nDBNMhwcXU9CmuisZMFHS72D1x2V0MuSAECE5eKNhVIG3xYYo3nshiyLwYaD2m5HnhmvnrOnRFdDk8Sj0K4tSAZYLuSCAOjsCKSEav0LlxY3aBBA2HnUuwOETdc2p5pRW4N/4n1J7GLKwGpUT+FwzH3ExqGoziF89pyJXuLJYUYJqdEU8mznoKbLZSkEfZoto3BelA7yA5Ej7D8dKO2F0O/FZcdO49WKErE4USs1bxoLBi3DhDQDaUidc3lOq+12vAuGaFU0VrgISqF2mJPw9cyItThjnBAJFqhfdmZL4nmjsRHLIPJbUc+/9G4vj0NDzjvOHeE825RGGqo5rV9h4U34GG2Iy/j4uQpAdD53b6Pat5J+TbP5tk0neUll8RtYvinxOAAHml31buD9979MiF/dlCCsx7Kc2ncS/4DLS/lezav5JNXU/LsjZTsEf1jUv6bgOP0yTfY0aY7zZoj8RpLLHxt4jhj+/2XGnECy5OINhpHY6PO3bbftkp/z6XCKfSxg4adxAMqlAEWEBNwiVOoBco3YA0EVgUoZ/e27eKOvC6l0RA9vh1vD+iF9xGwEmILeiKjZ29mKLDiIJj5zaqGC+kb5Bvf4PB5ebVbmUzj7vf/K/OKX5nrX64IM4suCQAA</values>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Gf2yofpbR9m6gqTWIgwcQLg8ixb8CaY2e2A3RV//uuE6dEgBhIaBJa81D5ftjnHN+TXG6J4GRJpsDjZJHMWJZkWRrH6XyaFLOsSFKeUYCEjIiiFWClAaYNx/UdlY0PbLcx4JOmfJzFyXw8TVgxXszYdJxlhyU94IdAs8VEOKh2O+zjwtaSbi5CO0bYrZDcgCLLy6sRqanBkxwYstw+Sb0VqqQFSCw967E+xe42tV9zzZoKlMtFHzwOnauQib6uMINNHk4Sjwg8OFAcEEhJpYURqaji1GmzIUtnGgwYoPxUyc2+4lYo1xGt6IMVv/HkaezrSkBmLIiwX+ZBoC5crqij57gzc43Z66UFA9tpwqGkjXRHw1hXcFo7oVXX4mgh+24tm0qddIqQ/QaD+2gsgoDa8/TIO1rl+a2+P+tBroVqJQkUpWZU7lfUOSOKxnk4WwISWo0rWtdC3eS10XeibUYo1eRG4mJSSn2PZ1pxoyaUedwTVJVO1hhfteELaoQn8Q23webdiNiNPZLU2kcqqGH+q/FIOmKBQt6q0EqQt5Pgm5kRtfuCR91BAL4bBTMUB69NGFs8DtRgz0dDPOTZIpul87wUivoL7f8ZtSjJMwesu3R0FNLvs8MbwPZ2+N4OwcvggyOexY6HvdFJlwh+OPgwP8w/kx8CjU9viL/ZIE5ffdEOJqmdfDuwgHXUwY8mjjM+vb7X5meuNLLvIv28eztETGoLPKI2EgrZ1xJHPeINRE5HOPr+FdzWDbK+Be9+8txJ/+rY9zn0DTr2Dl0LkNy+IGxvT0AwyDHvhH5i0ZCMLkJy/9n6MJ8ms7j9fSK3/jdfr6s/E/+vkswJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6cc4e182c3e2661005cf7c2ed401314b"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -448,13 +448,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:03</sys_created_on>
         <sys_id>c8bd614ec3e2661005cf7c2ed4013162</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:38:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-06 19:22:53</sys_updated_on>
         <ui_id>0fc88146-c85a-445f-a95f-7acf31fbba65</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VUU/bMBD+K5Gfs8pJaNrmDTEx7WEwjYkXCtHVvrTW3CTYTqFD/e87OykwBhqaJm2T1odK/u58991958vFHVOSFSxPkI9nSS6yJMtSztPpQbLIs0WSygwQD1jMalgjeTpYaCzDIWYb0J0HVS2UxNoRJJVtNWzPB8v7B4tYKS0N1qy4uIxZC4ZiODSsuHtictsWSw0L1BTgs88XnfT5Xsv1u8svcPdZnmKNkZ4QjxneOqwlUr4KtMWYraGW4BqzZYUzHQEGQZ7WenvvsVJUZsGY97216itFn3LvVyGVJrC33R/LoVM9LFaNEnjaOtXUPRKIDcZGd+v6pC/C9xgr6LTb95iQzlI8bD1lT2JgVJ2tmptP+4THqg7VDUbdCND3J3DOqEXn0Ho9UOOaApVraFtVL8vWNBsVLhOX9Wip6TCqdHNDSa1a1iMQnviIOgSjY8LfBvgcjPJVfKAwdHkXqi+vO5+3r2NgXPZFk4MVRrXukMJtcCC3i/dDKpHPXhQ+WTwIHebSPhpQu2qM82RDeKI67zjP5GHki4hWYKMKlEYZvYmoTUDdio7A0p8fzOhIN7YzWEQ0zc261TS20UegprorAQ6XNBV9PFVfd8psCdUaTalkD9/N989izoo5e0fc3JzF855ewMZJlo95JkSeJGk6ETyZZjjLx7OpOKgmPA/uYSSCu93akjQ3AfYHSvW6MLsrsF6boO/SNF37LMczNBsayIiE/PKEqszTsRQCBYcpT/IJ55CmKfBqMuNcDlQfcfq5/+7HvfFfsL9dsF9c50hykARRL3T86pe9D3CsUEv7zFPf7/MhQbkZEgw7PfldOz3Jefj9mc3e8/zHFvujb+wLK/7yG1UvhaWJCAAA</values>
+        <values>H4sIAAAAAAAA/+1WyW7bMBD9FYFn1aCkWF5ugYMUBdqkaIpc4kQYkyObKC0pJOXENfzvHUrygjRBUqCHBqgPBvhm4Zs3Q49vNkxJNmZphLw/ilKRREkScx4PT6JZmsyiWCaAeMJCVsASydPBTGPWHEK2Al17UBVCSSwcQVLZSsP6urN8OljEQmlpsGDjm9uQVWAoh0PDxpsnprcy0jBDTa7fPaUXGLp19Sz2+Tg2uGgNpZGeDw8ZPjosJBKRHLTFkC2hkOBKs2ZjZ2oCDIK8LPR677FQVOWYMe/7aNVPunbIvV+OVJnA1rY/Zp1QLZyfgYMryixcbTpXsSiVQNtqIjGHWrvJMdY6XFZOlUUb0pTZRZe6XhYXrSRsn2DXF0JqSySw8nV65l0Z+dWifPi2Y3muikaSzqhLAXp/AueMmtXO89kw1LikRNkSqkoV86wy5Uo1wcRl2ZtrOvRyXT7QpVbNix4IT7xHskLvnPCzBr4Go3wVXygNBW9DZtd2osHaQy0kYnZfeyZtZV0NWSuDDxFGVe6ULlhhR3cb7kZdIh+9OFjR7DBIzXTbozG3i9I4T79JT+SnNeeJPA18WcECbJCD0iiDDwEJB6RfMAFLX368g4kuLTV3HNCbKJeVpuEPvgLJ7O4EOJzTcLX5VHFfK7MmVGs0mZItvJnuHteUjafsI3FzUxZOW3oN1o+StM8TIdIoiuOB4NEwwVHaHw3FST7gaePeDEnjTspmNAWmgf2Brnpbmu0dNYS61XR8bsq6epbjFZoVjWhArf3xhKpM474UAgWHIY/SAecQxzHwfDDiXHZUjzi97r/9/dfnf8P+9Yb94VJ4/e3ulsK5Qi3tM495txGQOkpdzNrH/WQrdMbgujN2myH6W5shSnnzeUf7oS3u3a+Ho38CLyyK218zKVrzFQkAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c8bd614ec3e2661005cf7c2ed4013162"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=78736d8ec3a2661005cf7c2ed4013145"/>
@@ -477,10 +477,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>68c4e182c3e2661005cf7c2ed4013147</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:17</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:44</sys_updated_on>
         <ui_id>5919312f-57b7-4d21-8659-66ef80029114</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -504,10 +504,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>e8c4e182c3e2661005cf7c2ed401314a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:17</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:44</sys_updated_on>
         <ui_id>0e0e022d-3018-41cb-96c4-337fa5d7ea39</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj/qLM6twFCgh61AW/QyFAYt0YkwWVIlOaln+L+Pip206LEnm4/k43siR2b6YPvgn82t93Kv2e7P64pJHTH6H5mGDtmOyYCdZyt2BNXHeBxLhOpHm5frjBfl+mabVusmz8o1pNtys22aqoQ0eURunPDTRK1CeqtgePk+Az9IJRwuIi040hbQsd34JRUGi7WCBhUNWhioXwoKs0q0VZZWvMg3RZ6m+fYmazZFk+WiABQbqrt03i+mv7xBZKfQXXnpE1Xk6Yrhe0AtkAa1oDyuWAdaQDBuYLvgegIcgnjQarhWHKQORMdi7buX/4g7S9NY2CI54jgnr2G9POQM84ORHB9skEbPSIBGLT3cqL7Tv2f5cQXYQq/CZQWE9J740EbNUcUiqX06mNPjZeCd1Gd/S1IZDuoaQQhONn1AH9eACjsiqjuwVup9bZ05ynMzaemSvaIgaZU50dB4bgnwKDyhJ4LkjvCfZ/gFnIwufhENNU9n9/VbH+fOPhbF9WyaCjx30oZbojviIm56jfc6M/n5MARy6Wngc8TuL1ceEwMtWfLP0Mm4v1HqBzb9B62JmX0vAwAA</values>
@@ -531,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 15:55:02</sys_created_on>
         <sys_id>e8c4e182c3e2661005cf7c2ed401314c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:17</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:44</sys_updated_on>
         <ui_id>38044ca4-44b2-4609-acfa-34e537dba8a5</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YS0/jSBD+KyuLI3idd8gNwUZitRBpk+GyQVanu5z0bMftsdsBBvHft/phx3bCzMBkuGykKLKryvX8qqrtZ0/mKslVNpMXWcaXsTf65/7U47Gm4fWzF5M1eCMvDDNFVJ6FoXfqbYjINfF57m0gzbiM595o7rX8YO6dzr0MUk4E/0oUcsYyXRNl+H9OJ7dGgMp1IuBxsvgMVE3pCtYEBVDbWMiHK9B+QDoaX11czq4nt9PZxezT1ApQycDouo4VLCF16hj4JxEHwcKIUFCZFZ5ybeaGJGNNNI89z+dzL+ezpwT+IgsQ+nak/wp9c60R/1IgLJSxeColIiIyKPkrHquSVVKt5pLOG0oZRCQXKjT5231a1Dy61KEWLEJ1LkNIU5mGtmSloErzreCaxIwomb7mt0yZdcjwWpXnHkMB8VKtSmY30P8v+MMcryHLyNLmfqpSHi9N6h35Z7PvNB40+Vld55tyf+Oi/cXpb387/UFZAF2Bb/SGf6Iw8h/K/pvScGHC/m1qOv/wycj5p5h/yeGabYMmLFoMFvTsnPUHZ93zITsbDllwNmR92mG9YTcC1ih4HUl2ppQiVIYmNXqKlTKNwVLIgoA1xCpckyRB5IRJKje8Wi4cW/5SIMmPsBYhM8XwbTp8jJT42xrdEZyBC1OB5D1jJc6F2IdqWY/vDe3c7zUAVZvCtfGKVyd0U1wY8HwmG+ILEi/9SvefbAzP6duOiHc8//KCe4XxLBHk6e64Xo7r5bhejuvluF6O6+WA64WuuGApxOa9hjPcMEh07zfatcqbTV0a34gymvJEacRukG+yWhDRD3RwR6Pz92eUokhCUlSnIEVCPQAzEk37IQg0t4JXNOY2Dtrc01DI162Eo7fq3HfcaXqf8yu7r7VZ1MBLi6YnxI4jRYIKzqXNeb0CqqnMYNAbtU49eFQQM2Clb+UEKCm6ASaI/5KgEW+tImYz/hV1dwMtFwEGQl3k5W3ojiBFtSSnMEl0/ixF6aZzTCnydXxrndeHFzv67rb5dJSr+qkGGXmGhiDRwWjvnKvRdCUf/i48GfPYxO2YQlIiyjuiEOWLXEFmC4P+h19yLWDtOtWhdVuD8ztosV3zgWDJCoM1rJRuNKFyUzbTTnephkKHl/YB8RL87xBz3yiMneJFYYJo0CY90u4tWp120AoW/RYQvOgMhi066J5XCveHBpJb8dvq1b4muQLKwkTR8DrrByrh8ONKeNhKuTatpqfeuGVhqkcRpNcPIch/7fhhJu97Dx7eD8yefZNCTyTnKMRaHausydbum6CZP82R8tpqbGJ3hg//PtZmC/wyNghawwGlnT5o/PZ6vc5i0A0I6waMMVrB79a9HX8dbhdSCiDxrwHux+yqyCVn//gpuB++tfYi514DxWIws8VmQLn+SDDTtOviy7VmPGHNOK2SHmT6rwb5lvbyH6fHScIDFwAA</values>
@@ -644,7 +644,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0dd254ec3e2661005cf7c2ed40131d2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -652,7 +652,7 @@
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -736,14 +736,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>64dd254ec3e2661005cf7c2ed40131f8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -904,14 +904,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:37</sys_created_on>
         <sys_id>a4dd254ec3e2661005cf7c2ed40131d4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -939,12 +939,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>64dd654ec3e2661005cf7c2ed4013109</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:37:22</sys_updated_on>
+        <sys_updated_on>2025-07-06 16:54:04</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -954,7 +954,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
-        <comment>Update the state of the record to match the parent and work note the closure reason</comment>
+        <comment>Update the state of the record to closed incomplete and work note the closure reason</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Finance Case Child Closure: Incomplete Parent">a0dd254ec3e2661005cf7c2ed40131d2</flow>
@@ -965,13 +965,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>a0dd654ec3e2661005cf7c2ed4013108</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:34:38</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
         <ui_id>7715e15a-bae6-40f1-9fb5-c0070f045ed2</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Gf2ygfpbR9m6gqTWIgwcYLY5Fj34A1x8lsB+ii/vddJ06JADGQkCa05qHyvffY5x7fk1y2RHCyIjPgUbyM5yyN0zSJomQxi/N5mscJTylATCZE0RKwUgOrNMf1LZWNC7RtBPgkCZ+mUbyYzmKWT5dzNpum6WFBD/gh0HQZCgvlboc4Lkwt6fbCwzHCboTkGhRZXV5NSE01nmRBk1X7KPVaqpLmILH0bOD6mLvd1m7NK9aUoGwmhuCxR659Jvi8xgyCHJ04mhC4t6A4IJGCSgMTUlLFqa30lqysbjCggfJTJbf7ihuhbN9oSe+N+I0nzyJXVwB2xrwI+2XmBerDxZpaeo47M9vovV6VYGB6TTgUtJH2aBzrC05rKyrVQyzN5YCuZFOqk14Rst9gdB+NQRJQuz4d876t4vymujsbSG6E6iTxLcqKUblfUWu1yBvr6LQEJHQal7SuhbrOal3dig6MVMrwWuIiLGR1h2caca1CyhzvEFWl4Qbj6y58QbVwTXzBbRC8mxCzNUeSGvPQCmqY/Wock74x30LWqdBJkHWT4MBMi9p+wqNuwRPfTbwZ8oOXJowtHwZqtOeDIe6zdJnOk0VWCEXdhQ7/jBqU5IkDNn06OPLpt9nhFWQHO3zthuB58t4RT2LHY2xw0ie8Hw7ezQ+Lj+QH38aHN8TfbBAlL75oR5PUTb4ZWcBYauF7E0Upb9tvNTIHnsUhazSKZcMuvdv9uKv0z0xVqEtfOzjBGSVgsjLAA2oCoVCXWqIJAt5AYKsATeFezl3dKOsgOBXhU4/9e0Jvc/UrtB9cvREguXnmMgZLA5LB9rL+ch7Z2ieDC5/cf+rezdvxPOp+H8jh/80X7+oPqq98BAAKAAA=</values>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Gf2yofpbR9m6gqTWIgwcQLg8ixb8CaY2e2A3RV//uuE6dEgBhIaBJa81D5ftjnHN+TXG6J4GRJpsDjZJHMWJZkWRrH6XyaFLOsSFKeUYCEjIiiFWClAaYNx/UdlY0PbLcx4JOmfJzFyXw8TVgxXszYdJxlhyU94IdAs8VEOKh2O+zjwtaSbi5CO0bYrZDcgCLLy6sRqanBkxwYstw+Sb0VqqQFSCw967E+xe42tV9zzZoKlMtFHzwOnauQib6uMINNHk4Sjwg8OFAcEEhJpYURqaji1GmzIUtnGgwYoPxUyc2+4lYo1xGt6IMVv/HkaezrSkBmLIiwX+ZBoC5crqij57gzc43Z66UFA9tpwqGkjXRHw1hXcFo7oVXX4mgh+24tm0qddIqQ/QaD+2gsgoDa8/TIO1rl+a2+P+tBroVqJQkUpWZU7lfUOSOKxnk4WwISWo0rWtdC3eS10XeibUYo1eRG4mJSSn2PZ1pxoyaUedwTVJVO1hhfteELaoQn8Q23webdiNiNPZLU2kcqqGH+q/FIOmKBQt6q0EqQt5Pgm5kRtfuCR91BAL4bBTMUB69NGFs8DtRgz0dDPOTZIpul87wUivoL7f8ZtSjJMwesu3R0FNLvs8MbwPZ2+N4OwcvggyOexY6HvdFJlwh+OPgwP8w/kx8CjU9viL/ZIE5ffdEOJqmdfDuwgHXUwY8mjjM+vb7X5meuNLLvIv28eztETGoLPKI2EgrZ1xJHPeINRE5HOPr+FdzWDbK+Be9+8txJ/+rY9zn0DTr2Dl0LkNy+IGxvT0AwyDHvhH5i0ZCMLkJy/9n6MJ8ms7j9fSK3/jdfr6s/E/+vkswJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0dd654ec3e2661005cf7c2ed4013108"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -1042,10 +1042,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>6cdd654ec3e2661005cf7c2ed4013104</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
         <ui_id>0e0e022d-3018-41cb-96c4-337fa5d7ea39</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI+SC3mrWlWqdHeV0qovpypa7CWxzticbZJyiP9+60Bo1cd7gh3vzs4MZmCm823n3Yu5dU4eNNv+eouY1AGj94FpaJBtmfTYOBaxE6gu1MNQIJTf6qxYpTwvVjebpFxVWVqsINkU601VlQUk8Q65scKNI40K6VoF/ev/M/CjVMLiLLIFS9o8WrYdvhxJQQvSUtRlmpQ8z9Z5liTZ5iat1nmVZiIHFGsiVFChotbH2d0Xs75vQ2knCTPwfZ7ZLSg9gogsiRi+e9QCaX0NymHEGtACvLE923rbEWARxJNW/dJxlNoTHQu9707+pY1pkoTGGskQx+lwKfdzjhNc34OHZ6LmvrNzKz8aydFNUQisoVP+7jM2NTy1Xho9jXio1HXaqK7RP6ck2EJw/WyEdI5EYBuMBumzj/r5aM67q8oHqS+hzIfKcFBLBd5bWXU+6BkYKmyIaN9A20p92LfWnORlmLQ08UFREdfKnGlpuKIx8CA8plwhfiD8/gK/gpXBxQ+ioeExYq53dwqc+/BCIe7/dEHJ5Gz2sJ9iCCPcytbf0oITznLHt3DrJ+4lUy4dSXgJ2OP1XwkHPd0gyT9DZ2N/B/Ef2PgPIIEn33UDAAA=</values>
@@ -1069,10 +1069,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>acdd654ec3e2661005cf7c2ed4013103</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:45</sys_updated_on>
         <ui_id>5919312f-57b7-4d21-8659-66ef80029114</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1096,10 +1096,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:38</sys_created_on>
         <sys_id>ecdd654ec3e2661005cf7c2ed4013105</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:44:19</sys_updated_on>
+        <sys_updated_on>2025-07-06 17:00:46</sys_updated_on>
         <ui_id>38044ca4-44b2-4609-acfa-34e537dba8a5</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1ZbU/jOBD+K6eIj6WXQktLvyG4SpwWKl27++WKItd2inddOxs7BRb1v9/4JW7SltXCFh0fIqEqmRlP5uWZxzF5jmShs0KrqbxQii1ENPz3rhUxYWRw/RwJtKTRMEoSpZEuVJJErWiFeGGEz7NoRXPFpJhFw1nUacezqDWLFM0Z4uwH0qAZyXyJtNX/PRnfWgMslxmnj+P5V4r1BN/TJQID8Dbi8uGKmjhoPhxdXVxOr8e3k+nF9PPEGWBJqPV1LTRd0Ny7I7R9lDLKSZIiTLVyxhNmHnODspER2mXPs9ksKtj0KaOf0Jxyczs0P6W/mfEIPzlFJJGCPwWLFHFFg/6eCR1UQeo8BznbckpoigquE1u/3dW8FtGlSbVUIWxqmdA8l3niWhYMdV5sDJdIEKRl/lLcMicuIKvrVNY9JpyKhb4Pym5sftfwBzVeUqXQwtV+onMmFrb0Xvy71fceD1p8Vff5qtrf+GzfufwnPy9/HBpgOvCT2Wgfacj8l6r/qjJc2LT/mNjJP3wxCvZZsO8FvSabpBFJ5/05Pj4nZ/3j7vmAHA8GJD4ekDN8SnqDbkrJVsPrSHKcEkywTGxpDIsFmy1iKW0pp0sqdLJEWQbISbJcrli1XUBb7QUHUTuFXiTENqPtytGGTFF706MvCDhwbjuQvYVWRMH5PlTLen6vGOez3hagaixco1e4OsKr8sKC5ytaoTZHYtGuTP/Ryuq8vw1FvGH9eg37CmEq4+jpS7O9NNtLs70020uzvTTbywG3F3zPOMmpqJ5rTEigylAO95rm4DSyZGOBDeU1ggoSYInncli1B6qgNyAFUgunpN2NDSQK5yzTZgJWILFdKoXwxHXLknsuEP/ExDe3pBI+HNEKduWcmtDAgIWoLCL5TrCMODel5tJlXq+D3udsN3GLi2jYaUX0UVNBKAk5hKkMEgPKMWAyCAwKXSyAI8V+wBO7sbFLKaSHfYXCbeKr58TpFUwCNLnAushpWRnJMFWuMO5mnJnWOLU2k+ItJS+W4tblbBrj+KrSGC+52ulYoSASmplsTfg+l3RyLx/+KUMdMWEL45VcYsTDHdIAzXmhTaCmw+pJXXKk1CYaSDn5XpglLhL/sMQlst6LmnUrYNlPyCvh7Abmg6FZlUHVwBxC3cbyTch8pxR6j8Od1D2eTw6I57hB9FsRfbcF4BpvN+TckPOHhHJDtA3Rflh03vlWxmn/BPXQSW/eOT2JO/H8rEMRXJz2Bx3c755XWv2Xgac/nG36XfsO4FvuDg1bLR+XwpKOTJ8O1PTBIZvuu3Z5QCActt+eRqqFrhNLKHX1OAry+kEU9C8dQe0W89bDZ/Qer7JUmAeQyremzi4fWsbcJriX3hzKCSCkH3cGfYxPz6iZgF6vdzrvd2NEujEhBFcmYBPETlQe+XMpOUViC/pTiOvPkcnofeB/wP340OBPfdb7qbDU/v98+OKL58pjO9QHM/MP6KmRXZdfRY3iCTDBcFX0IPNvZng2svV/PpOEPF8dAAA=</values>
@@ -1188,18 +1188,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"34dd654ec3e2661005cf7c2ed401311e","name":"plan","plan_signature":null}}</plan>
         <plan_id>78736d8ec3a2661005cf7c2ed4013145</plan_id>
-        <snapshot>a0dd254ec3e2661005cf7c2ed40131d2</snapshot>
+        <snapshot>c9541e46c3e6661005cf7c2ed4013199</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 16:34:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34dd654ec3e2661005cf7c2ed401311e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 16:39:03</sys_updated_on>
-        <trigger display_value="">f0dd654ec3e2661005cf7c2ed401311c</trigger>
+        <sys_updated_on>2025-07-06 17:00:22</sys_updated_on>
+        <trigger display_value="">a9427106c326661005cf7c2ed40131bf</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=78736d8ec3a2661005cf7c2ed4013145"/>
 </record_update>
