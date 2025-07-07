@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Finance Case Status">01aa12cec3e6661005cf7c2ed4013106</dashboard>
-        <experience display_value="Finance Case Management">5db2e9f1c3eee21005cf7c2ed40131fe</experience>
+        <experience display_value="Finance Workspace">5db2e9f1c3eee21005cf7c2ed40131fe</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 19:50:28</sys_created_on>

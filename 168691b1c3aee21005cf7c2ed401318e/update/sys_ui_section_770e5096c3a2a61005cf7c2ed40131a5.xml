@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Finance Case" section_id="770e5096c3a2a61005cf7c2ed40131a5" sys_domain="global" table="x_393628_finance_finance_cases" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>d98ed896c3a2a61005cf7c2ed40131e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>518ed896c3a2a61005cf7c2ed40131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>folder</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>518ed896c3a2a61005cf7c2ed40131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>518ed896c3a2a61005cf7c2ed40131ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>518ed896c3a2a61005cf7c2ed40131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>518ed896c3a2a61005cf7c2ed40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_id>598ed896c3a2a61005cf7c2ed40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Finance Case</caption>
+            <header>false</header>
+            <name>x_393628_finance_finance_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:24:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>770e5096c3a2a61005cf7c2ed40131a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_393628_finance_finance_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+            <sys_update_name>sys_ui_section_770e5096c3a2a61005cf7c2ed40131a5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">f1e660335d7122104f34969735a7aded</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

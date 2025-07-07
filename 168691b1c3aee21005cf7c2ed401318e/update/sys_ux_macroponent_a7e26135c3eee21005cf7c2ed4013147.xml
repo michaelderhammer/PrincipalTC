@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -136,9 +136,49 @@
                                                 "id": "33f6672f7d096e5a32e4e96b497748e4"
                                             },
                                             "propertyValues": {
+                                                "cellEditingEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "clickableTextEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "columnDragDropEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "columnResizingEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "expandAllGroups": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "maxCharacters": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
                                                 "options": {
                                                     "type": "JSON_LITERAL",
                                                     "value": {}
+                                                },
+                                                "rowDragDropEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectAllEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectionEnabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "wrapCellContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 }
                                             },
                                             "slot": "left",
@@ -724,13 +764,8 @@
         ],
         "inputValues": {
             "actionConfigId": {
-                "binding": {
-                    "address": [
-                        "actionConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
+                "type": "JSON_LITERAL",
+                "value": null
             },
             "allRecordsSelected": {
                 "type": "JSON_LITERAL",
@@ -774,7 +809,7 @@
             },
             "enableDeclarativeActions": {
                 "type": "JSON_LITERAL",
-                "value": true
+                "value": null
             },
             "enableDotWalk": {
                 "type": "JSON_LITERAL",
@@ -782,11 +817,11 @@
             },
             "enableInfiniteScroll": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": false
             },
             "enableLiveList": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": false
             },
             "enableQuickFormNavigation": {
                 "type": "JSON_LITERAL",
@@ -858,7 +893,7 @@
                             },
                             {
                                 "type": "JSON_LITERAL",
-                                "value": "d305c0a873601010a0a79329faf6a7cb"
+                                "value": "1fa66242c36a661005cf7c2ed401318d"
                             }
                         ],
                         "type": "LIST_CONTAINER"
@@ -1053,20 +1088,20 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties/>
+        <state_properties>[]</state_properties>
         <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-05 21:08:34</sys_created_on>
         <sys_id>a7e26135c3eee21005cf7c2ed4013147</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name>sys_ux_macroponent_a7e26135c3eee21005cf7c2ed4013147</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-05 21:08:36</sys_updated_on>
+        <sys_updated_on>2025-07-06 20:53:56</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a7e26135c3eee21005cf7c2ed4013147"/>
 </record_update>

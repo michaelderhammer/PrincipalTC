@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="018ed896c3a2a61005cf7c2ed4013198" sys_domain="global" table="x_393628_finance_finance_cases" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd8ed896c3a2a61005cf7c2ed40131e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393628_finance_finance_cases" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">018ed896c3a2a61005cf7c2ed4013198</sys_ui_form>
+            <sys_ui_section caption="Finance Case" display_value="Finance Case" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">770e5096c3a2a61005cf7c2ed40131a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d8ed896c3a2a61005cf7c2ed40131e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393628_finance_finance_cases" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">018ed896c3a2a61005cf7c2ed4013198</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_393628_finance_finance_cases" sys_domain="global" view="f1e660335d7122104f34969735a7aded">058ed896c3a2a61005cf7c2ed4013197</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_393628_finance_finance_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-07 05:26:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>018ed896c3a2a61005cf7c2ed4013198</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393628_finance_finance_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_018ed896c3a2a61005cf7c2ed4013198</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-07 05:26:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">f1e660335d7122104f34969735a7aded</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

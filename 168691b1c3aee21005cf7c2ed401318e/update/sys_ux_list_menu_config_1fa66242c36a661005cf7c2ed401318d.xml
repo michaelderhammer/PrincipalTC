@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Default configuration for finance list menu UIB experience. </description>
+        <name>Finance</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-06 20:43:14</sys_created_on>
+        <sys_id>1fa66242c36a661005cf7c2ed401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance</sys_name>
+        <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_1fa66242c36a661005cf7c2ed401318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-06 20:43:14</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

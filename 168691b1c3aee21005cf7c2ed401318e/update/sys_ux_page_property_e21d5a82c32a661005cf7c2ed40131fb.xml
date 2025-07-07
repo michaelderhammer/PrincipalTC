@@ -3,7 +3,7 @@
         <choices/>
         <description/>
         <name>chrome_toolbar</name>
-        <page display_value="Finance Case Management">5db2e9f1c3eee21005cf7c2ed40131fe</page>
+        <page display_value="Finance Workspace">5db2e9f1c3eee21005cf7c2ed40131fe</page>
         <required_translations>[ {
   "message" : "Finance Case List",
   "comment" : ""
@@ -12,7 +12,7 @@
   "comment" : ""
 } ]</required_translations>
         <route/>
-        <suffix/>
+        <suffix>chrome_toolbar</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-06 20:01:12</sys_created_on>

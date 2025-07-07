@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d15c9642c32a661005cf7c2ed401317c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Finance Case Management" source="x_393628_finance">168691b1c3aee21005cf7c2ed401318e</sys_package>
@@ -20,11 +20,11 @@
         <sys_scope display_value="Finance Case Management">168691b1c3aee21005cf7c2ed401318e</sys_scope>
         <sys_update_name>par_dashboard_widget_d15c9642c32a661005cf7c2ed401317c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-06 19:58:51</sys_updated_on>
+        <sys_updated_on>2025-07-07 05:15:52</sys_updated_on>
         <visualization/>
-        <w>36</w>
+        <w>48</w>
         <widget_props/>
-        <x>12</x>
-        <y>12</y>
+        <x>0</x>
+        <y>24</y>
     </par_dashboard_widget>
 </record_update>

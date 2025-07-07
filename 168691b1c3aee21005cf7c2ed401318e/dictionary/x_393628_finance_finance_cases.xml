@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="d367d9f1c3aee21005cf7c2ed40131a9" extends="task" label="Finance Cases" max_length="40" name="x_393628_finance_finance_cases" type="collection">
+    <element audit="true" db_object_id="d367d9f1c3aee21005cf7c2ed40131a9" extends="task" label="Finance Case" max_length="40" name="x_393628_finance_finance_cases" type="collection">
         <element choice="3" label="Folder" max_length="25" name="folder" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Budgeting" sequence="200" value="Budgeting"/>
